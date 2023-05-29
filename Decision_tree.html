@@ -63,7 +63,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'Decision_tree';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="UTS" href="utspendat.html" />
+    <link rel="next" title="UTS" href="utspendat.html" />
+    <link rel="prev" title="Naive Bayes" href="Naive_Bayes.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -150,15 +151,20 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
-                    Welcome to your Jupyter Book
+                    PENAMBANGAN DATA
                 </a>
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="utspendat.html">UTS</a></li>
-
-
+<li class="toctree-l1"><a class="reference internal" href="uploaddata.html">Mengumpulkan Data Power BI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Naive_Bayes.html">Naive Bayes</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Decision Tree pada Data Iris</a></li>
+<li class="toctree-l1"><a class="reference internal" href="utspendat.html">UTS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backpropagation.html">Menghitung Manual Backpropagation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ANNBP_PCA.html">ANNBP_PCA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DT_PCA.html">DT_PCA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="KNN_PCA.html">KNN_PCA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="NAIVE_PCA.html">NAIVE_PCA</a></li>
 </ul>
 
     </div>
@@ -387,7 +393,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-e284b14c-847e-4a43-abf0-6b7cea0430c8">
+  <div id="df-d3777bfe-55af-4e93-aa2d-ed83739107cb">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -507,7 +513,7 @@ document.write(`
 </table>
 <p>150 rows × 5 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-e284b14c-847e-4a43-abf0-6b7cea0430c8')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-d3777bfe-55af-4e93-aa2d-ed83739107cb')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -558,12 +564,12 @@ document.write(`
 
       <script>
         const buttonEl =
-          document.querySelector('#df-e284b14c-847e-4a43-abf0-6b7cea0430c8 button.colab-df-convert');
+          document.querySelector('#df-d3777bfe-55af-4e93-aa2d-ed83739107cb button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-e284b14c-847e-4a43-abf0-6b7cea0430c8');
+          const element = document.querySelector('#df-d3777bfe-55af-4e93-aa2d-ed83739107cb');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -782,13 +788,22 @@ Accuracy on testing set (Gini): 1.000
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="utspendat.html"
+       href="Naive_Bayes.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Naive Bayes</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="utspendat.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
         <p class="prev-next-title">UTS</p>
       </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div></div>
   
